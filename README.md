@@ -39,8 +39,7 @@ Based on [Intio 4tronix building kit](https://4tronix.co.uk/blog/?p=169)
     indicates the obstacles on away. the indication is bind to the direction of movement
     if bought sides are moving forward, front sonar is doing the measurement, otherwise 
     rear sonar.  
-    Robot can be set into 'manual mode' (api: /car/manual) for few minutes. It allows controlling robot manually in real time instead of pre written source code (default). In this mode the seqvense does not stop automatically after theres no source code left to execute. By setting the mode to auto or exceeding the four minute time limit, Robot return back to pre programmable mode.  
-        
+    Robot can be set into 'manual mode' (api: /car/manual) for few minutes. It allows controlling robot manually in real time instead of pre written source code (default). In this mode the seqvense does not stop automatically after theres no source code left to execute. By setting the mode to auto or exceeding the four minute time limit, Robot return back to pre programmable mode.     
     Normally, once all the pre-defined actions in current project has been done, robot 
     signals the server asking to start next project waiting it's turn in que.  
        
