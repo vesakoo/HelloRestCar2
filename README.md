@@ -19,7 +19,7 @@ Car makes http-requests to webserver for fetching actions it's going to execute 
 It must implement all actions which are defined on web server backend client api.
 Default implementation fo webserver is visible on https://robo.sukelluspaikka.fi
 
-##Intro:  
+## Intro:  
 
 Based on [Intio 4tronix building kit](https://4tronix.co.uk/blog/?p=169)  
     Robot car has two 170-size DC-motors,one for each side.  
@@ -40,7 +40,8 @@ Based on [Intio 4tronix building kit](https://4tronix.co.uk/blog/?p=169)
     if bought sides are moving forward, front sonar is doing the measurement, otherwise 
     rear sonar.  
     Robot can be set into 'manual mode' (api: /car/manual) for few minutes. It allows controlling robot manually in real time instead of pre written source code (default). In this mode the seqvense does not stop automatically after theres no source code left to execute. By setting the mode to auto or exceeding the four minute time limit, Robot return back to pre programmable mode.  
-      
-     Normally, once all the pre-defined actions in current project has been done, robot 
-     signals the server asking to start next project waiting it's turn in que.  
+        
+    Normally, once all the pre-defined actions in current project has been done, robot 
+    signals the server asking to start next project waiting it's turn in que.  
+       
     This Robot is a sand box implementation, operating in a single room. First test device for conseptual testing of CloudMachines.
