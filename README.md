@@ -1,19 +1,19 @@
 # HelloRestCar2
-Requirements:
+Requirements:   
 
--Arduino Uno WiFi REV2
--4tronix Initio 4WD Robocar
--Library:  WiFiNINA, NewPing, ArduinoHttpClient, SPI
+-Arduino Uno WiFi REV2   
+-4tronix Initio 4WD Robocar   
+-Library:  WiFiNINA, NewPing, ArduinoHttpClient, SPI   
 
 
+   
+Add SSID.h with your ssid information:   
 
-Add SSID.h with your ssid information:
+#define SSID      "Your gateway id"   
 
-#define SSID      "Your gateway id"
+#define KEY       "Your gateway WPA pass"   
 
-#define KEY       "Your gateway WPA pass"
-
-##Description:  
+## Description:  
 
 Car makes http-requests to webserver for fetching actions it's going to execute next.
 It must implement all actions which are defined on web server backend client api.
