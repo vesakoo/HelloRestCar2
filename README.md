@@ -21,6 +21,10 @@ Default implementation fo webserver is visible on https://robo.sukelluspaikka.fi
 
 ## Intro:  
 
+![Robocar image](http://robo.sukelluspaikka.fi/images/4tronix_Initio.jpg)
+
+
+
 Based on [Intio 4tronix building kit](https://4tronix.co.uk/blog/?p=169)  
     Robot car has two 170-size DC-motors,one for each side.  
     You can set the speed and direction separatelly on each motors,
